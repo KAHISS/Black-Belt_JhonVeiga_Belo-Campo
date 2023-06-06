@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whatsButton {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 50%;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgb(15, 15, 15);
+  transition: 0.4s;
+}
+
+.whatsButton:hover {
+  background-color: rgb(81, 247, 89);
+}
+.whatsButton:hover .fa-whatsapp {
+  color: black;
+}
+
+.fa-whatsapp {
+  color: white;
+  font-size: 4rem;
+}
+
+/* Navegação */
+.navigationBar {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logoNav {
+  width: 100px;
+}
+.navButtons,
+.menu {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+#burguer {
+  font-size: 2rem;
+  color: red;
+  display: none;
+}
+.navButtons button {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* apresentação */
+.apresentation {
+  padding: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  background-color: black;
+}
+.apresentation h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.logoBelo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.imgapr {
+  width: 75%;
+}
+.logoApst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.apresentation img {
+  transform: scale(1.3);
+}
+.nameBC {
+  color: white;
+  padding-top: 10px;
+  font-size: 2rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* Conteúdo principal */
+.mainContent {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.content {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.CardaboutJiuJitsu,
+.Cardaboutjv {
+  background-color: black;
+}
+.CardabotWe,
+.CardInformations {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0);
+}
+.CardabotWe .text {
+  order: 2;
+}
+.text {
+  width: 40%;
+  gap: 4px;
+}
+.title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.6rem;
+}
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  color: white;
+  font-size: 1.3rem;
+}
+.black {
+  color: black;
+}
+
+.content img {
+  width: 40rem;
+  border-radius: 10px;
+}
+
+/* informações */
+.CardInformations {
+  width: 100%;
+}
+.informations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  order: 2;
+}
+.daysTrain i,
+.yourInvest i {
+  color: black;
+}
+.informations address {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-style: normal;
+}
+.CardInformations .title,
+.CardInformations .paragraph {
+  text-align: center;
+  color: black;
+}
+.days {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 10px;
+}
+.days li {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+.yourInvest .paragraph {
+  color: black;
+  padding-top: 20px;
+}
+.yourInvest .paragraph span {
+  font-weight: 600;
+}
+.WhereAre .paragraph a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px #f00 solid;
+  padding-bottom: 4px;
+}
+.locate {
+  color: #f00;
+}
+
+/* rodape da página */
+.footer {
+  padding: 30px;
+  background-color: #000;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.socialMedia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.socialMediaList {
+  list-style: none;
+}
+.item {
+  padding: 2px;
+}
+.fa-instagram {
+  color: red;
+  font-size: 1.3rem;
+}
+.anchor {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.anchorBack {
+  padding-bottom: 3px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px #f00 solid;
+  font-size: 1.3rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1291px) {
+  .text {
+    width: 100%;
+  }
+  .imageFight {
+    width: 100%;
+  }
+  .content img {
+    width: 75%;
+  }
+}
+@media (max-width: 935px) {
+  .apresentation {
+    justify-content: center;
+    align-items: center;
+  }
+  .apresentation h1 {
+    color: white;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 935px) {
+  .navigationBar {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #burguer {
+    display: block;
+    cursor: pointer;
+  }
+  .navButtons {
+    flex-direction: column;
+  }
+  .btns {
+    text-align: center;
+    border-bottom: 2px black solid;
+  }
+  .menu {
+    flex-direction: column;
+    display: none;
+  }
+  .CardaboutJiuJitsu .text,
+  .Cardaboutjv .text {
+    width: 100%;
+    height: 350px;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .CardabotWe .text {
+    width: 100%;
+    height: 350px;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .scroll-indicator {
+    position: sticky;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .scroll-indicator i {
+    color: #f00;
+  }
+}
+@media (max-width: 435px) {
+  .apresentation h1 {
+    font-size: 1.2rem;
+  }
+  .paragraph {
+    text-align: justify;
+  }
+  .title {
+    text-align: center;
+  }
+  .mainContent {
+    padding: 0.5rem;
+  }
+  .socialMedia {
+    justify-content: center;
+    align-items: center;
+  }
+  .nameBC {
+    font-size: 1rem;
+  }
+  .imgapr {
+    width: 9rem;
+  }
+  .navButtons button {
+    font-size: 1rem;
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
